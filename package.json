@@ -1,6 +1,6 @@
 {
   "name": "namedfilestream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension of the filestream package that sends filename and mime-type over the wire",
   "main": "index.js",
   "scripts": {
