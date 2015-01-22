@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/DamonOehlman/namedfilestream",
   "dependencies": {
-    "bops": "^0.1.1",
     "filestream": "^2.3.1",
     "inherits": "^2.0.1",
     "mime-component": "0.0.1"
