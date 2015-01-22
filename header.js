@@ -1,0 +1,1 @@
+module.exports = new Buffer([0x01, 0x50, 0xA0]);
