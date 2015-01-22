@@ -26,11 +26,6 @@ NamedWriteStream.prototype._createFile = function() {
 };
 
 NamedWriteStream.prototype._preprocess = function(data, callback) {
-
-  function checkByteMatch(byte, idx) {
-    return bops.readUInt8(data, idx) === byte;
-  }
-
   // ensure we have processed the header
   if (! this._processedHeader) {
     if (HEADER.compare(data) !== 0) {
