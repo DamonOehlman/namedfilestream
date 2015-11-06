@@ -40,6 +40,7 @@ NamedWriteStream.prototype._preprocess = function(data, callback) {
   if (! this.metadata) {
     try {
       this.metadata = JSON.parse(data.toString());
+      this.emit('header', this.metadata);
       return callback();
     }
     catch (e) {
