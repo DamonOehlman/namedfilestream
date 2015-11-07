@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/DamonOehlman/namedfilestream",
   "dependencies": {
-    "filestream": "^3.0.0",
+    "filestream": "^4.1.0",
     "inherits": "^2.0.1",
     "mime-component": "0.0.1"
   },
